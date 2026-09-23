@@ -2,7 +2,7 @@
 
 Welcome to our 12th-grade STEM Capstone Project website repository.
 
- 🌐 [ CLICK HERE TO ENTER THE LIVE WEBSITE ](https://yks0kk.github.io/Titan-Could-we-live-there/)
+ 🌐 [ CLICK TO ENTER THE LIVE WEBSITE Could we live on Titan ](https://yks0kk.github.io/Titan-Could-we-live-there/)
 
 ***
 
