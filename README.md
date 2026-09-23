@@ -1,8 +1,8 @@
- 🪐 Titan: Will Saturn's Moon Become a Home for Humanity?
+# 🪐 Titan: Will Saturn's Moon Become a Home for Humanity?
 
 Welcome to our 12th-grade STEM Capstone Project website repository.
 
- 🌐 [👉 CLICK HERE TO ENTER THE LIVE WEBSITE 👈](https://yks0kk.github.io/Titan-Could-we-live-there/)
+ 🌐 [ CLICK HERE TO ENTER THE LIVE WEBSITE ](https://yks0kk.github.io/Titan-Could-we-live-there/)
 
 ***
 
