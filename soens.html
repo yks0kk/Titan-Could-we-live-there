@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Titan</title>
+</head>
+<body>
+
+<nav class="menu">
+  <div class="logo">
+    <a href="index.html" style="text-decoration: none; color: aliceblue; margin-left: 2mm; margin-right: 5cm; font-size: 2rem;">Titan</a>
+  </div>
+  
+  <div class="rmenu">
+    <a href="soens.html">Earth & Space</a>
+    <a href="chem.html">Chemistry</a>
+    <a href="phys.html">Physics</a>
+    <a href="maths.html">Maths</a>
+    <a href="ictnrd.html">ICTNR</a>
+    <a href="resolve.html">Resolve</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+<div id="ambient-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <button id="audio-toggle" style="background: rgba(0, 0, 0, 0.8); color: #fff; border: 1px solid #8ec4bc; padding: 10px 15px; border-radius: 20px; cursor: pointer; font-family: sans-serif; display: flex; align-items: center; gap: 8px;">
+    <span>🔊</span> <span id="toggle-text">Play Titan Wind Background</span>
+  </button>
+</div>
+
+<audio id="titan-bg-audio" loop>
+  <source src="huygens_alien_winds_descent.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  const bgAudio = document.getElementById('titan-bg-audio');
+  const toggleBtn = document.getElementById('audio-toggle');
+  const toggleText = document.getElementById('toggle-text');
+
+  toggleBtn.addEventListener('click', () => {
+    if (bgAudio.paused) {
+      bgAudio.play().then(() => {
+        toggleText.innerText = 'Mute Background Wind';
+        toggleBtn.style.borderColor = '#bb9734'; 
+      }).catch(error => {
+        console.log("Autoplay blocked. Click again.", error);
+      });
+    } else {
+      bgAudio.pause();
+      toggleText.innerText = 'Play Titan Wind Background';
+      toggleBtn.style.borderColor = '#8ec4bc';
+    }
+  });
+</script>
+</body>
+
+<footer id="about">
+
+  <section class="about-section">
+  <div class="about-content">
+    <h2>About Our Mission</h2>
+    <p class="about-desc">
+      We are a collaborative team of senior STEM students representing the 12th-grade 
+      cohort at the 23rd Governmental High School. This platform serves as the comprehensive 
+      digital repository for our capstone research project, which critically evaluates the scientific,
+      logistical, and technological feasibility of establishing a permanent human civilization on
+      Saturn’s largest moon, Titan. Recognizing that deep-space exploration demands a multi-faceted 
+      approach, our team adopted a rigorous, cross-disciplinary methodology. By synthesizing core principles
+      across advanced physics, organic chemistry, computational mathematics, and digital network infrastructure, 
+      we have deconstructed the environmental realities of this hostile alien world. From analyzing the fluid dynamics 
+      of cryogenic methane lakes to engineering theoretical life-support frameworks capable of enduring extreme 
+      atmospheric pressures and sub-zero thermal extremes, this project represents our collective academic effort 
+      to answer one of humanity's most profound questions: can we transform the frozen frontiers of the outer 
+      solar system into our next sustainable home?
+    </p>
+    
+    <div class="team-container">
+      <h3 style="color: #c09687;">The Research Crew</h3>
+      <ul class="team-list">
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;">Sarah Al- Mosah, Aseel Omar, Lilian, Hind</strong> — Planetary Strategists & Systems Analysts </li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;">Hala Husein, Sarah Al- Mosah</strong> — Chemical Systems Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;">Jana Abbadi, Elaf Al- Esa, Jana Aldoory, Mays Rahmoon</strong> — Atmospheric Physics Researchers, Mathamatical Modelers</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;">Hala Husein, Zaina Azam, Aminah, Dana Al-Dosery</strong> — Data Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;">Jana Abbadi</strong> — Lead Web Developer & Designer</li>
+      </ul>
+    </div>
+
+    <div class="feedback-container">
+       <h3 style="color: #91839b;">Mission Evaluation & Feedback</h3>
+      <p>We value your insights. Please visit our interactive noticeboard to leave your feedback, critiques, or analytical opinions on our Titan colonization framework.</p>
+      <a href="YOUR_PADLET_LINK_HERE" target="_blank" style="text-decoration: underline;">Access Our Padlet</a>
+     </div>
+
+
+  </div>
+</section>
+
+</footer>
+
+</html>

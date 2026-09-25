@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Titan-Mathmatics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      };
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="An integrated 12th-grade STEM project exploring the scientific and technological possibilities of human colonization on Saturn's moon, Titan.">
+    <meta name="keywords" content="Titan project, Saturn moon colonization, 12th grade STEM, physics of Titan, chemistry of Titan">
+    <meta name="author" content="12th grade group, 23rd Governmental Highschool" >
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+
+<nav class="menu">
+  <div class="logo">
+    <a href="index.html" style="text-decoration: none; color: aliceblue; margin-left: 2mm; margin-right: 5cm; font-size: 2rem;">Titan</a>
+  </div>
+  
+  <div class="rmenu">
+    <a href="soens.html">Earth & Space</a>
+    <a href="chem.html">Chemistry</a>
+    <a href="phys.html">Physics</a>
+    <a href="maths.html">Maths</a>
+    <a href="ictnrd.html">ICTNR</a>
+    <a href="resolve.html">Resolve</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+<div class="fade-overlays"></div>
+
+    <div class="math-dashboard-container" style="direction: rtl;">
+        
+        <header class="math-main-header">
+            <h1 style="font-family: Impact; color: #bb9734; font-size: 45px; position: relative; z-index: 5; margin-top: 20px !important;">Mapping the Void: Quantitative Planetary Metrics</h1>
+            <h1 class="cairo-bold-title" style="font-family: 'Cairo' !important; color: #bb9734; font-size: 35px;">خرائط الفراغ السحيق: التحليل الدالي ونمذجة الجاذبية الكونّية</h1>
+            <div class="accent-bar"></div>
+        </header>
+
+        <section class="math-executive-brief">
+            <h2 class="cairo-sub-heading"> الجانب النظري: ديناميكا المدارات والفجوة الزمنية  <strong lang="en" style="font-weight: 550;">[THEORETICAL MODEL]</strong></h2>
+            <p class="cairo-body-text">
+                تبلغ المسافة الهائلة بين كوكب الأرض وقمر زحل "تيتان" حداً شاسعاً يتغير ديناميكياً نتيجة الحركة المدارية الدائرية للكوكبين حول الشمس. تتراوح هذه المسافة المتغيرة بين <strong style="font-size: 14px;" lang="ar">1.2 مليار كيلومتر</strong> عندما يكونان في أقرب نقطة تقابل فلكي، وتتسع لتصل إلى <strong style="font-size: 14px;" lang="ar">1.6 مليار كيلومتر</strong> في أبعد نقطة تباعد مداري. 
+            </p>
+            <p class="cairo-body-text" style="margin-top: 12px;">
+                نظراً لأن موجات اللاسلكي تنتقل عبر الفضاء الخارجي بسرعة الضوء الثابتة والتي تساوي تقريباً 300,000 كم/ثانية، فإن الإشارات الكهرومغناطيسية تواجه تأخيراً زمنياً حرجاً. هذا التأخير يفرض حتمية بناء أنظمة تكنولوجية مؤتمتة بالكامل بالاعتماد على برمجيات الذكاء الاصطناعي المحلي لإدارة شؤون المستعمرة بشكل فوري، نظراً لاستحالة التوجيه اللحظي من الأرض.
+            </p>
+
+        </section>
+
+        <div class="math-split-grid">
+            
+            <section class="math-panel-card functional-analysis" style="width: 94%;">
+                <h2 class="cairo-sub-heading">1. التحليل الدالي <strong lang="en" style="font-weight: 550;">[Domain & Range]</strong></h2>
+                <p class="cairo-body-text">يمكننا صياغة نمذجة رياضية دقيقة لزمن دورة الاتصال الكاملة كدالة خطية متصلة تعتمد على متغير المسافة الساقطة $x$ بالكيلومتر:</p>
+                
+                <div class="math-formula-display">
+                    <span class="eng-impact-label">R(x) FUNCTION</span>
+                    <div class="mathjax-eq">
+                        $$R(x) = 2 \cdot \left(\frac{x}{300,000}\right) = \frac{x}{150,000}$$
+                    </div>
+                </div>
+
+                <div class="interval-matrix">
+                    <div class="interval-box domain">
+                        <span class="box-title">المجال <strong lang="en" style="font-weight: 550;">(Domain)</strong></span>
+                        <div class="interval-math">$$D_R = [1.2 \times 10^9 \, , \, 1.6 \times 10^9]$$</div>
+                        <span class="box-desc">نطاق المسافات الفيزيائية المتاحة مدارياً بالكيلومتر.</span>
+                    </div>
+                    <div class="interval-box range">
+                        <span class="box-title">المدى <strong lang="en" style="font-weight: 550;">(Range)</strong></span>
+                        <div class="interval-math">$$R_R = [8000 \, , \, 10666.67]$$</div>
+                        <span class="box-desc">نطاق زمن الانتظار المترتب بالثواني لدورة الاتصال الكاملة.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="math-panel-card piecewise-systems">
+                <h2 class="cairo-sub-heading">2. دالة الطوارئ متعددة القواعد <strong lang="en" style="font-weight: 550;">(Piece-wise Function)</strong></h2>
+                <p class="cairo-body-text">لحساب الزمن الكلي لإتمام الاتصال شاملاً المعالجة والفرز التلقائي بناءً على درجة أولوية الإشارة المرسلة في المستعمرة:</p>
+                
+                <div class="math-formula-display">
+                    <span class="eng-impact-label">PIECE-WISE ROUTING</span>
+                    <div class="mathjax-eq">
+                        $$F(x) = \begin{cases} \frac{x}{150,000} + 10 & \text{(emergency)} \\ \frac{x}{150,000} + 300 & \text{(standard)} \end{cases}$$
+                    </div>
+                </div>
+                <p class="cairo-body-text" style="font-size: 13px; line-height: 1.6; color: aliceblue; margin-top: 15px;">
+                  توضح الدالة كيف يُضاف زمن تأخير برمجي بسيط (10 ثوانٍ) للأنظمة المؤتمتة بالكامل، بينما يرتفع لـ (300 ثانية) للإشارات العادية التي تتطلب مراجعة الطواقم البشرية.
+                 </p>
+
+            </section>
+        </div>
+
+        <section class="calculus-steps-block" style="margin-bottom: 0 !important;">
+            <h2 class="cairo-sub-heading" style="text-align: center; margin-bottom: 30px;">3. حساب النهايات والاشتقاق العددي خطوة بخطوة <strong lang="en" style="font-weight: 550;">[Calculus Thresholds: Step-By-Step Limit Derivation]</strong></h2>
+            <div class="steps-split-grid" >
+                <div class="step-column-box">
+                    <h3 class="cairo-card-title">حساب النهاية الصغرى (أقرب مسافة تقابل)</h3>
+                    <p class="cairo-body-text" style="font-size: 13px; margin-bottom: 20px;">الاشتقاق الحسابي عند الاقتراب من الحد الأدنى للمجال فلكياً:</p>
+                    
+                    <div class="step-row">
+                        <span class="step-badge">STEP 1</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">تطبيق مفهوم النهاية الرياضية:</span>
+                            $$ \lim_{x \to 1.2 \times 10^9} \frac{x}{300,000} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row">
+                        <span class="step-badge">STEP 2</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التعويض المباشر بقيمة مسافة التقابل:</span>
+                            $$ = \frac{1,200,000,000}{300,000} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row">
+                        <span class="step-badge">STEP 3</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التبسيط وقسمة المعاملات الثابتة:</span>
+                            $$ = 4,000 \, \text{sec} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row final-result-row">
+                        <span class="step-badge final">RESULT</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التحويل للدقائق بالقسمة على 60:</span>
+                            $$ t_{\text{min}} = \frac{4,000}{60} = \mathbf{66.67} \, \text{min} $$
+                        </div>
+                    </div>
+                    <p class="verdict-note">تستغرق الإشارة <strong lang="ar" style="font-size: 13px;">ساعة و 7 دقائق</strong> في اتجاه واحد في أفضل الظروف المدارية.</p>
+                </div>
+
+                <div class="step-column-box">
+                    <h3 class="cairo-card-title">حساب النهاية العظمى (أبعد مسافة تباعد)</h3>
+                    <p class="cairo-body-text" style="font-size: 13px; margin-bottom: 20px;">الاشتقاق الحسابي عند الاقتراب من الحد الأعلى للمجال فلكياً:</p>
+                    
+                    <div class="step-row">
+                        <span class="step-badge">STEP 1</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">تطبيق مفهوم النهاية الرياضية:</span>
+                            $$ \lim_{x \to 1.6 \times 10^9} \frac{x}{300,000} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row">
+                        <span class="step-badge">STEP 2</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التعويض المباشر بقيمة مسافة الأوج:</span>
+                            $$ = \frac{1,600,000,000}{300,000} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row">
+                        <span class="step-badge">STEP 3</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التبسيط وإجراء الحساب العددي:</span>
+                            $$ = 5,333.33 \, \text{sec} $$
+                        </div>
+                    </div>
+
+                    <div class="step-row final-result-row">
+                        <span class="step-badge final">RESULT</span>
+                        <div class="step-math-line">
+                            <span class="step-label-ar">التحويل للدقائق بالقسمة على 60:</span>
+                            $$ t_{\text{max}} = \frac{5,333.33}{60} = \mathbf{88.89} \, \text{min} $$
+                        </div>
+                    </div>
+                    <p class="verdict-note" style="border-right-color: #a99cb3;">تتأخر الإشارة لتستغرق <strong lang="ar" style="font-size: 13px;">ساعة و 29 دقيقة</strong> في اتجاه واحد عند ذروة التباعد المداري.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <section class="calculus-steps-block" style="margin: 0 24px 0 24px; border-color: #6d77976c;">
+             <h2 class="cairo-sub-heading" style="text-align: center; margin-bottom: 10px; color: #8ec4bc; direction: rtl;">
+                <span style="direction: ltr; display: inline-block; margin-left: 5px;">.4</span> مصفوفة الاشتقاق المداري: إثبات جاذبية تيتان (14%)
+             </h2>
+                 <p class="cairo-body-text" style="text-align: center; max-width: 800px; margin: 0 auto 30px auto; color: #a0aec0; direction: rtl;">
+                     كيف تنشأ نسبة الـ 14% لوزن الأجسام على تيتان مقارنة بالأرض؟ نستخدم التحليل الرياضي المقارن القائم على قانون نيوتن للجذب العام بدلاً من مجرد التعويض بالأرقام الضخمة بشكل تقليدي.
+                 </p><br>
+
+                <div class="math-rows-container" style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
+    
+                   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%;">
+        <h3 class="cairo-card-title" style="color: #c09687; direction: rtl; margin: 0;">الاشتقاق المطلق من القانون العام</h3>
+        <h3 class="cairo-card-title" style="color: #c09687; direction: rtl; margin: 0;">النمذجة الرياضية النسبية (التحجيم المداري)</h3>
+                  </div>
+                   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; margin-bottom: 10px;">
+                       <p class="cairo-body-text" style="font-size: 13px; direction: rtl; margin: 0;">حساب التسارع العددي الفعلي لجاذبية تيتان السطحية خطوة بخطوة:</p>
+                       <p class="cairo-body-text" style="font-size: 13px; direction: rtl; margin: 0;">اشتقاق النسبة المئوية للجاذبية مقارنة بالأرض:</p>
+                   </div>
+
+                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; border-bottom: 1px solid #1a202c; padding-bottom: 15px;">
+                       <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+                             <span class="step-badge">STEP 1</span>
+                       <div class="step-math-line">
+                             <span class="step-label-ar" style="padding-right: 3px;">قانون التسارع الجاذبي السطحي:</span>
+                               $$g_{\text{Titan}} = \frac{G \cdot M_{\text{Titan}}}{R_{\text{Titan}}^2}$$
+              </div>
+             </div>
+        <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+            <span class="step-badge">STEP 1</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">دالة التناسب المشترك بين الكتلة ونصف القطر:</span>
+                $$\text{Ratio} = \left( \frac{M_{\text{Titan}}}{M_{\text{Earth}}} \right) \cdot \left( \frac{R_{\text{Earth}}}{R_{\text{Titan}}} \right)^2$$
+            </div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; border-bottom: 1px solid #1a202c; padding-bottom: 15px; align-items: center;">
+        <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+            <span class="step-badge">STEP 2</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">التعويض بالثوابت الكونية والمقاييس الفيزيائية للقمر:</span>
+                $$= \frac{(6.674 \times 10^{-11}) \cdot (1.345 \times 10^{23})}{(2,574,000)^2}$$
+            </div>
+        </div>
+        <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+            <span class="step-badge">STEP 2</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">التعويض المباشر بالكتل وأنصاف الأقطار الفيزيائية:</span>
+                  $$\text{Ratio} = \left( \frac{1.345 \times 10^{23}}{5.972 \times 10^{24}} \right) \cdot \left( \frac{6,371}{2,574} \right)^2$$
+            </div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; border-bottom: 1px solid #1a202c; padding-bottom: 15px; align-items: center;">
+        <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+            <span class="step-badge">STEP 3</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">حل بسط الكتلة ومقام مربع نصف القطر الهندسي:</span>
+                $$= \frac{8.9765 \times 10^{12}}{6.6254 \times 10^{12}}$$
+            </div>
+        </div>
+        <div class="step-row" style="border: none; padding: 0; margin: 0; flex-direction: row-reverse;">
+            <span class="step-badge">STEP 3</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">حساب المعاملات واستخراج نسب التحجيم المداري:</span>
+                $$= (0.0225) \cdot (2.476)^2$$
+            </div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; align-items: stretch;">
+        <div class="step-row final-result-row" style="margin: 0; flex-direction: row-reverse; background-color: #8ec4bc0d;">
+            <span class="step-badge final" style="background-color: #8ec4bc;">VALUE</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">قيمة التسارع المحلي الفعلي على تيتان:</span>
+                $$g_{\text{Titan}} \approx 1.35 \, \text{m/s}^2$$
+            </div>
+        </div>
+        <div class="step-row final-result-row" style="margin: 0; flex-direction: row-reverse; background-color: #8ec4bc0d;">
+            <span class="step-badge final" style="background-color: #8ec4bc;">RATIO</span>
+            <div class="step-math-line">
+                <span class="step-label-ar" style="padding-right: 3px;">النسبة النهائية لقوة الجاذبية السطحية:</span>
+                $$\text{Multiplier} = \mathbf{0.138} \approx \mathbf{14\%}$$
+            </div>
+        </div>
+    </div>
+
+      </div>
+        
+        <p class="verdict-note" style="border-right-color: #91839b; margin-top: 25px; direction: rtl;">
+            <strong lang="ar" style="font-size: 13px;">الاستنتاج التحليلي:</strong> على الرغم من أن نصف قطر تيتان الصغير يقرب المستعمر البشري من مركز كتلته (مما يمنحه قوة جذب مضاعفة بـ 6 مرات مقارنة بمكانه الفلكي)، إلا أن كتلته شديدة الصغر (2% فقط من كتلة الأرض) تهيمن تماماً على الدالة الرياضية لتسحق محصلة الوزن الصافية وتهبط بها إلى 14% فقط من وزنك الحالي.
+        </p>
+    </section>
+    
+      <section class="calculus-steps-block" style="border-color: #8e9cc477; margin: 20px 24px 10px 24px;">
+        <h2 class="cairo-sub-heading" style="text-align: center; margin-bottom: 10px; color: #8ec4bc; font-weight: 1000;">
+        <strong lang="en" style="font-weight: 550;">[Cosmic Vectoring: Orbital Phase Core] </strong>التوجيه الكوني: محرك الأطوار المدارية  
+        </h2>
+        <p class="cairo-body-text" style="text-align: center; max-width: 800px; margin: 0 auto 20px auto; color: #a0aec0; direction: rtl;">
+            قم بتحريك مؤشر "زاوية التزامن الفلكي" لتلاحظ كيف تتغير المسافة الكونية جيبياً في الوقت الفعلي، ومراقبة تأثيرها اللحظي على نهايات تأخير الاتصالات وعلاقتها بمتجهات طاقة الكتل وجاذبية تيتان البالغة 14%.
+        </p>
+
+        <div style="background: #221c2477; padding: 15px; border-radius: 12px; margin-bottom: 20px; text-align: center; direction: rtl;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                <label for="orbitalAngleSlider" class="cairo-card-title" style="color: #9e8ea1; margin: 0; font-size: 1.15rem;">
+                    زاوية التزامن الفلكي بين الأرض وزحل ($\theta$): <span id="angleDisplayValue" style="color: #dfcee2; font-family: Impact;">90</span>&deg;
+                </label>
+                <input type="range" id="orbitalAngleSlider" min="0" max="180" value="90" oninput="updateUnifiedSimulation()" style="width: 100%; max-width: 600px; accent-color: #9e8ea1; cursor: pointer; margin: 10px 0;">
+                
+                <div style="display: flex; gap: 30px;">
+                    <label style="color: #f5e5fc; font-family: 'Cairo' !important; font-weight: 1000; font-size: 17px; cursor: pointer;">
+                        <input type="radio" name="signalPriorityRadio" value="emergency" checked onchange="updateUnifiedSimulation()" style="accent-color: #423444; margin-left: 8px;">
+                        إشارة طوارئ ذات أولوية آليّة ($+10 \, \text{s}$)  
+                    </label>
+                    <label style="color: #f5e5fc; font-family: 'Cairo' !important; font-weight: 1000; font-size: 17px; cursor: pointer;">
+                        <input type="radio" name="signalPriorityRadio" value="standard" onchange="updateUnifiedSimulation()" style="accent-color: #423444; margin-left: 8px;">
+                        إشارة بيانات دورية قياسيّة ($+300 \, \text{s}$)
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="steps-split-grid" style="direction: rtl !important; gap: 20px !important;">
+            
+            <div class="step-column-box" style="background: #8ec4bc0d; padding: 10px; border-radius: 12px;">
+                <h3 class="cairo-card-title" style="color: #8ec4bc; border-bottom: 1px solid #8ec4bc33; padding-bottom: 8px;">📡 بيئة حسابات المسافة والاتصالات المدارية</h3>
+                
+                <div style="margin: 6px 0;">
+                    <span class="pane-label" style="color: #a0aec0;" lang="ar">المسافة اللحظية المحسوبة جيبياً <strong lang="en">($D$):</strong></span>
+                    <div id="simDistanceValue" style="font-size: 2rem; font-weight: 550; color: aliceblue; text-align: right; margin: 5px 0; direction: ltr;" lang="en">1.400 Billion km</div>
+                </div>
+
+                <div style="margin: 15px 0; border-top: 1px dashed #8ec4bc0d; padding-top: 10px;">
+                    <span class="pane-label" style="color: #a0aec0;" lang="ar">زمن عبور الإشارة اتجاه واحد <strong lang="en">($T_{\text{one-way}}$):</strong></span>
+                    <div id="simOneWayTime" style="font-size: 2rem; font-weight: 550; color: #8ec4bc; text-align: right; margin: 5px 0; direction: ltr;" lang="en">77.78 min</div>
+                </div>
+
+                <div style="margin: 15px 0; padding-top: 10px; background: #221c2477; padding: 10px; border-radius: 6px;">
+                    <span class="pane-label" style="color: #9e8ea1;" lang="ar">مخرجات الدالة متعددة القواعد الكاملة ($F(x)$):</span>
+                    <div id="simRoundTripTime" style="font-size: 2rem; font-weight: 550; color: #9e8ea1; text-align: right; margin: 5px 0; direction: ltr;" lang="en">155.72 min</div>
+                </div>
+            </div>
+
+            <div class="step-column-box" style="background: #8ec4bc0d; padding: 10px; border-radius: 12px;">
+                <h3 class="cairo-card-title" style="color: #8ec4bc; border-bottom: 1px solid #8ec4bc33; padding-bottom: 8px;">☄ بيئة ديناميكا المقذوفات والطاقة الحركية</h3>
+                
+                <div style="margin: 10px 0;">
+                    <span class="pane-label" style="color: #a0aec0;" lang="ar">تسارع جاذبية تيتان الثابت والمثبت مصفوفياً <strong lang="en">($g_{\text{Titan}}$):</strong></span>
+                    <div style="font-size: 2rem; font-weight: 550; color: aliceblue; text-align: right; margin: 5px 0; direction: ltr;" lang="en">1.35 m/s²</div>
+                </div>
+
+                <div style="margin: 15px 0; border-top: 1px dashed #8ec4bc0d; padding-top: 10px;">
+                    <span class="pane-label" style="color: #a0aec0;" lang="ar">سرعة دخول مجال الجاذبية المقدرة مسافياً <strong lang="en">($V_{\text{entry}}$):</strong></span>
+                    <div id="simVelocityValue" style="font-size: 2rem; font-weight: 550; color: #8ec4bc; text-align: right; margin: 5px 0; direction: ltr;" lang="en">11.84 km/s</div>
+                </div>
+
+                <div style="margin: 15px 0; padding-top: 10px; background: #221c2477; padding: 10px; border-radius: 6px;">
+                    <span class="pane-label" style="color: #9e8ea1;" lang="ar">نسبة وقود كبح الملاحة لهبوط آمن <strong lang="en" style="font-weight: 550;">(Tsiokovsky $M_f/M_0$):</strong></span>
+                    <div id="simFuelRatioValue" style="font-size: 2rem; font-weight: 550; color: #9e8ea1; text-align: right; margin: 5px 0;">64.2%</div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="verdict-note" style="border-right: 4px solid #8ec4bc; margin-top: 35px; padding-right: 15px; direction: rtl; font-size: 13.5px; color: #ffffff; line-height: 1.8; text-align: justify; font-family: sans-serif;" lang="ar">
+    <strong lang="ar" style="font-size: 13.5px; color: #ffffff;">الاستنتاج الرياضي الموحد للمهمة الفلكية:</strong> تثبت النمذجة الرياضية المتكاملة لخطوط المدارات الفلكية أن استيطان قمر تيتان يخضع لظروف هندسية وحركية صارمة ومترابطة؛ فالمسافة المتغيرة جيبياً لا تحدد فقط زوايا ونهايات فجوة الاتصالات الحرجة عبر التحليل الدالي للأمواج (66.67 إلى 88.89 دقيقة للإشارة الواحدة)، بل تتحكم بشكل مباشر في سرعات المقذوفات وعلاقات طاقة الكتل الحركية اللازمة لإتمام الملاحة والهبوط كبحاً على جرم ذي تسارع جذب منخفض للغاية يعادل <span dir="ltr">1.35 m/s²</span> (14% فقط من جاذبية الأرض). هذه القراءات الحسابية المتشابكة تؤكد بلغة الرياضيات القاطعة استحالة التوجيه اللحظي للمستعمرة من الأرض، وتثبت حتمية بناء برمجيات مستقلة مؤتمتة بالكامل تدار محلياً بأنظمة الذكاء الاصطناعي لاتخاذ القرارات الحيوية والمدارية في أجزاء من الثانية.
+</p>
+
+    </section>
+
+<script>
+function updateUnifiedSimulation() {
+    const angleSlider = document.getElementById('orbitalAngleSlider');
+    const angleDisplay = document.getElementById('angleDisplayValue');
+    const prioritySelection = document.querySelector('input[name="signalPriorityRadio"]:checked').value;
+    
+    const distText = document.getElementById('simDistanceValue');
+    const owTimeText = document.getElementById('simOneWayTime');
+    const rtTimeText = document.getElementById('simRoundTripTime');
+    const velocityText = document.getElementById('simVelocityValue');
+    const fuelText = document.getElementById('simFuelRatioValue');
+
+    const thetaDegrees = parseFloat(angleSlider.value);
+    angleDisplay.innerText = thetaDegrees;
+    const thetaRadians = thetaDegrees * (Math.PI / 180);
+
+    const calculatedDistanceKm = 1400000000 + (200000000 * Math.cos(thetaRadians + Math.PI)); 
+    const distanceBillionKm = (calculatedDistanceKm / 1000000000).toFixed(3);
+    distText.innerText = distanceBillionKm + " Billion km";
+
+    const oneWaySeconds = calculatedDistanceKm / 300000;
+    const oneWayMinutes = (oneWaySeconds / 60).toFixed(2);
+    owTimeText.innerText = oneWayMinutes + " min";
+
+    const processingOverhead = (prioritySelection === 'emergency') ? 10 : 300;
+    const totalRoundTripMinutes = (((oneWaySeconds * 2) + processingOverhead) / 60).toFixed(2);
+    rtTimeText.innerText = totalRoundTripMinutes + " min";
+
+    const calculatedVelocityKmS = (10.5 + (2.5 * Math.sin(thetaRadians))).toFixed(2);
+    velocityText.innerText = calculatedVelocityKmS + " km/s";
+
+    const effectiveExhaustVelocity = 3.5;
+    const deltaVRequired = parseFloat(calculatedVelocityKmS) * 0.35; 
+    const fuelMassFractionMultiplier = (1 - Math.exp(-deltaVRequired / effectiveExhaustVelocity)) * 100;
+    fuelText.innerText = fuelMassFractionMultiplier.toFixed(1) + "%";
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    updateUnifiedSimulation();
+});
+</script>
+
+
+</body>
+<br>
+
+<footer id="about">
+
+  <section class="about-section">
+  <div class="about-content">
+    <h2>About Our Mission</h2>
+    <p class="about-desc">
+      We are a collaborative team of senior STEM students representing the 12th-grade 
+      cohort at the 23rd Governmental High School. This platform serves as the comprehensive 
+      digital repository for our capstone research project, which critically evaluates the scientific,
+      logistical, and technological feasibility of establishing a permanent human civilization on
+      Saturn’s largest moon, Titan. Recognizing that deep-space exploration demands a multi-faceted 
+      approach, our team adopted a rigorous, cross-disciplinary methodology. By synthesizing core principles
+      across advanced physics, organic chemistry, computational mathematics, and digital network infrastructure, 
+      we have deconstructed the environmental realities of this hostile alien world. From analyzing the fluid dynamics 
+      of cryogenic methane lakes to engineering theoretical life-support frameworks capable of enduring extreme 
+      atmospheric pressures and sub-zero thermal extremes, this project represents our collective academic effort 
+      to answer one of humanity's most profound questions: can we transform the frozen frontiers of the outer 
+      solar system into our next sustainable home?
+    </p>
+    
+    <div class="team-container">
+      <h3 style="color: #c09687;">The Research Crew</h3>
+      <ul class="team-list">
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue; font-weight: 550;">Sarah Al- Mosah, Aseel Omar, Lilian, Hind</strong> — Planetary Strategists & Systems Analysts </li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Hala Husein, Sarah Al- Mosah</strong> — Chemical Systems Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Jana Abbadi, Elaf Al- Esa, Jana Aldoory, Mays Rahmoon</strong> — Atmospheric Physics Researchers, Mathamatical Modelers</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Hala Husein, Zaina Azam, Aminah, Dana Al-Dosery</strong> — Data Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Jana Abbadi</strong> — Lead Web Developer & Designer</li>
+      </ul>
+    </div>
+
+    <div class="feedback-container">
+       <h3 style="color: #91839b;">Mission Evaluation & Feedback</h3>
+      <p>We value your insights. Please visit our interactive noticeboard to leave your feedback, critiques, or analytical opinions on our Titan colonization framework.</p>
+      <a href="YOUR_PADLET_LINK_HERE" target="_blank" style="text-decoration: underline;">Access Our Padlet</a>
+     </div>
+
+
+  </div>
+</section>
+
+</footer>
+
+</html>
