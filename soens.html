@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Titan</title>
+</head>
+<body>
+
+<nav class="menu">
+  <div class="logo">
+    <a href="index.html" style="text-decoration: none; color: aliceblue; margin-left: 2mm; margin-right: 5cm; font-size: 2rem;">Titan</a>
+  </div>
+  
+  <div class="rmenu">
+    <a href="soens.html">Earth & Space</a>
+    <a href="chem.html">Chemistry</a>
+    <a href="phys.html">Physics</a>
+    <a href="maths.html">Maths</a>
+    <a href="ictnrd.html">ICTNR</a>
+    <a href="resolve.html">Resolve</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+<div class="fade-overlays"></div>
+
+<div id="ambient-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <button id="audio-toggle" style="background: rgba(0, 0, 0, 0.8); color: #fff; border: 1px solid #8ec4bc; padding: 10px 15px; border-radius: 20px; cursor: pointer; font-family: sans-serif; display: flex; align-items: center; gap: 8px;">
+    <span>🔊</span> <span id="toggle-text">Play Titan Wind Background</span>
+  </button>
+</div>
+
+<audio id="titan-bg-audio" loop>
+  <source src="huygens_alien_winds_descent.mp3" type="audio/mpeg">
+</audio>
+
+
+<div class="phys-container-wide" style="margin-bottom: 60px;">
+    
+    <div class="phys-header">
+        <h1 class="cairo-bold-title" style="direction: ltr; text-align: center; font-family: 'Impact', sans-serif !important; font-size: 2.6rem !important; color: #bb9734; margin-bottom: 5px;">
+            Planetary Astrogeology: Lithospheric Stratification & Internal Thermal Engines
+        </h1>
+        <h1 class="cairo-bold-title" style="font-size: 2rem !important; margin-top: 10px; color: #bb9734;">
+            بنية القمر الجيولوجية: الغلاف الصخري والمحرك الحراري الداخلي لتايتان
+        </h1>
+        <div class="header-line"></div>
+    </div>
+
+    <div class="math-executive-brief" style="margin-top: 40px; background: rgba(15, 41, 48, 0.45); padding: 35px; border-radius: 12px;">
+        <h2 class="cairo-sub-heading">منظور علوم الأرض والفضاء: كيف يبدو عالم تايتان المجهول؟</h2>
+        <span class="eng-impact-label">[PLANETARY COMPARISON & DYNAMICS]</span>
+        <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 16px; line-height: 1.8;">
+            عند مقارنة تايتان بالأرض، نجد اختلافًا كبيرًا في الظروف البيئية رغم وجود بعض أوجه التشابه الفلكية والجيومورفولوجية. فالأرض هي الكوكب المعروف بوجود الحياة بفضل موقعها المثالي في النطاق الصالح للسكن، بينما تايتان هو أكبر أقمار زحل، ويتميز بغلاف جوي كثيف للغاية ودرجات حرارة شديدة الانخفاض تصل إلى حوالي <strong style="color: #bb9734;">−179°C</strong>.
+        </p>
+        <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 16px; line-height: 1.8; margin-top: 9px !important;">
+            أما من ناحية الماء والسطح، فالماء على الأرض يوجد بأشكاله الثلاثة ويُعد أساسيًا للحياة في الغلاف الحيوي، بينما يوجد الماء على تايتان بشكل أساسي على هيئة <strong lang="ar" style="font-size: 15px;">جليد مائي صلب</strong> يتصرف كالصخور الصماء بسبب البرودة الشديدة. وفي المقابل، توجد على سطحه أنهار وبحيرات وبحار من الميثان والإيثان السائلين تشكل <strong lang="ar" style="font-size: 15px;">دورة هيدروكربونية كاملة</strong> بديلة للدورة المائية الأرضية، كما يتميز سطحه الجيولوجي بوجود الجبال والكثبان الرملية العضوية والسهول الشاسعة الناتجة عن عوامل التعرية والترسيب.
+        </p>
+    </div>
+
+</div>
+
+<div class="phys-container-wide" style="margin-bottom: 60px;">
+    
+    <div class="phys-header" style="margin-bottom: 30px; position: relative; top: -20px;">
+        <h2 class="cairo-sub-heading" style="text-align: center; font-size: 30px !important;">[EXO-METEOROLOGY & ENVIRONMENTAL ANOMALIES]</h2>
+        <div class="header-line" style="width: 80px; background-color: #8ec4bc;"></div>
+    </div>
+
+    <div class="phys-dashboard-grid-3">
+        
+        <div class="dashboard-card" style="background: rgba(142, 196, 188, 0.05); border: 1px solid rgba(142, 196, 188, 0.15);">
+            <h2 class="cairo-card-title" style="color: aliceblue; font-weight: 1000;"> ظاهرة الاحتباس الحراري العكسي النادرة</h2>
+        <span class="eng-impact-label">[ATMOSPHERIC THERMODYNAMICS]</span>
+            <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6; color: aliceblue;">
+                على الأرض، يعمل الاحتباس الحراري على حبس الحرارة لتدفئة الكوكب، لكن تايتان يفعل العكس تماماً بنظام احتباس حراري عكسي نادر. فالضباب العضوي البرتقالي الكثيف يحجب 90% من ضوء الشمس، مما يحافظ على برودته، بينما الكمية الضئيلة النافذة تحتجز بغاز الميثان السفلي.
+            </p>
+        </div>
+
+        <div class="dashboard-card" style="background: rgba(142, 196, 188, 0.05); border: 1px solid rgba(142, 196, 188, 0.15);">
+            <h2 class="cairo-card-title" style="color: aliceblue; font-weight: 1000;"> مواسم الميثان والفيضانات الخاطفة</h2>
+            <span class="eng-impact-label">[EXO-METEOROLOGY & MONSOONS]</span>
+            <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6; color: aliceblue;">
+                عندما يحل فصل الصيف في الأقطاب، يمر القمر بمواسم ميثان كارثية؛ حيث تتدفق فيضانات عارمة من الغاز المسال لتنحت أودية عميقة في صخور الجليد الصلبة خلال أيام. كما أن الرياح القوية تولد حقولاً مغناطيسية ساكنة ممتدة تسبب شرارات مستمرة من الاحتكاك.
+            </p>
+        </div>
+
+        <div class="dashboard-card" style="background: rgba(142, 196, 188, 0.05); border: 1px solid rgba(142, 196, 188, 0.15);">
+          <h2 class="cairo-card-title" style="color: aliceblue; font-weight: 1000;"> ديناميكية تكتونية الجليد وقوى المد والجزر لزحل</h2>
+            <span class="eng-impact-label">[CRYO-TECTONICS & SATURN IMPACT]</span>
+            <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6; color: aliceblue;">
+                جبال تايتان الشاهقة من جليد مائي صلب تطفو فوق طبقة لينة ممتدة من الجليد الدافئ المخلوط بالأمونيا. وبسبب جاذبية كوكب زحل الهائلة، يتعرض تايتان لقوى مد وجزر تسحق وتمدد أحشاء القمر، مما يتسبب في تشقق القشرة وبناء سلاسل جبلية كاملة عبر التكتونية الباردة.
+            </p>
+        </div>
+
+    </div>
+</div>
+ 
+<div class="phys-container-wide" style="margin-bottom: 60px;">
+    <div class="phys-dashboard-grid-3">
+        
+        <div class="dashboard-card" style="border: 1px solid #8ec4bc; background: rgba(142, 196, 188, 0.02);">
+            <h2 class="cairo-card-title" style="color: #8ec4bc; font-weight: 1000;"> المقومات: الدرع الغازي والطيران الذاتي</h2>
+            <span class="eng-impact-label" style="color: #8ec4bc;">[THE ENABLERS: WHAT WILL HELP US]</span>
+            <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6;">
+                يتكون غلاف تايتان من 95% نيتروجين، وبضغط سطحي يعادل 1.5 مرة ضغط الأرض. هذا الغلاف الكثيف يوفر حماية طبيعية فائقة من الإشعاعات الفضائية والكونية القاتلة، مما يلغي تماماً الحاجة لبناء خنادق خرسانية تحت الأرض. كما أن الجاذبية المنخفضة (14% من الأرض) تتيح للبشر الطيران الذاتي برفرفة الأجنحة ميكانيكياً بسهولة!
+            </p>
+        </div>
+
+        <div class="dashboard-card" style="grid-column: span 2; border: 1px solid #c09687; background: rgba(192, 150, 135, 0.02);">
+    <h2 class="cairo-card-title" style="color: #c09687; font-weight: 1000;"> التحديات: معضلة التنفس، العتمة والبعد المداري الشاسع</h2>
+    <span class="eng-impact-label" style="color: #c09687;">[CRITICAL ROADBLOCKS & LIMITATIONS]</span>
+    <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6;">
+        غياب الأكسجين والبرودة السحيقة (−179°C) يجبراننا على تصميم مساكن مغلقة توفر الأكسجين عبر صهر وتفكيك الجليد المائي كهربائياً، مع تأمين تدفئة مستمرة للمعدات حتى لا تصبح المواد هشّة وقابلة للكسر كالمعادن والمطاط فوراً تحت وطأة هذه الدرجات الكريوجينية القاسية.
+    </p>
+    <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6; margin-top: 10px;">
+        وبموجب <strong lang="ar" style="font-size: 15px;">قانون التربيع العكسي للضوء</strong>، تنهار طاقة الشمس الساقطة إلى 1% فقط بسبب البعد المداري البالغ 9.5 وحدة فلكية. هذا النقص يتفاقم بفعل الضباب البرتقالي الكثيف الذي يحجب الضوء المرئي تماماً ويغرق السطح في عتمة دائمة تشبه الغسق، مما يسقط خيار الطاقة الشمسية ويحتم الاعتماد كلياً على المولدات النووية (RTGs).
+    </p>
+    <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 14px; line-height: 1.6; margin-top: 10px;">
+        أخيراً، تخلق هذه المسافة الفلكية فجوة اتصالات خانقة؛ إذ تستغرق الإشارات اللاسلكية قرابة الساعة والنصف للوصول في الاتجاه الواحد. هذا التأخير الزمني الحرج (Latency Lag) يمنع الدعم الفوري الطارئ من الأرض عند انهيار أنظمة دعم الحياة، مما يجبر المستعمرة على الاعتماد الذاتي الكامل على الحواسيب المحلية لإدارة الأزمات.
+    </p>
+</div>
+
+    </div>
+</div>
+
+<div class="phys-container-wide" style="margin-bottom: 60px;">
+    <div style="background: #090f16; border: 2px solid #bb9734; box-shadow: 0 0 20px rgba(187, 151, 52, 0.15); border-radius: 12px; padding: 30px; font-family: 'Courier New', Courier, monospace !important; position: relative;">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed #bb9734; padding-bottom: 15px; margin-bottom: 25px;">
+            <div style="color: #bb9734; font-weight: bold; letter-spacing: 2px; font-size: 1.1rem; font-family: 'Cairo', sans-serif !important;">
+                🚨 <strong style="font-family: 'Cairo', sans-serif !important; font-weight: 1000;">وحدة رصد المخاطر البيئية الفضائية</strong> // [HAZARD_DETECTION]
+            </div>
+            <div style="background: rgba(187, 151, 52, 0.1); border: 1px solid #bb9734; padding: 4px 10px; border-radius: 4px; color: #bb9734; font-size: 0.8rem; letter-spacing: 1px; font-family: 'Impact', sans-serif !important;">
+                SYSTEM STATUS: ONLINE
+            </div>
+        </div>
+
+        <p style="font-family: 'Cairo', sans-serif !important; color: #8ec4bc; font-size: 18px; text-align: center; margin-bottom: 25px; font-weight: 1000;">
+            انقر على أحد خيارات مصفوفة المخاطر الكونية أدناه لإرسال نبضات الفحص الراداري عبر الغلاف الجوي لتايتان.
+        </p>
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 30px; direction: rtl;">
+            <button onclick="executeTerminalScan('stratosphere')" style="background: transparent; border: 1px solid #bb9734; color: #bb9734; padding: 12px 20px; font-weight: bold; cursor: pointer; border-radius: 8px; font-family: 'Cairo', sans-serif !important; font-weight: 1000; transition: all 0.2s ease;">
+                &gt; التحليل الطيفي للستراتوسفير // STRATOSPHERE
+            </button>
+            <button onclick="executeTerminalScan('dunes')" style="background: transparent; border: 1px solid #8ec4bc; color: #8ec4bc; padding: 12px 20px; font-weight: bold; cursor: pointer; border-radius: 8px; font-family: 'Cairo', sans-serif !important; font-weight: 1000; transition: all 0.2s ease;">
+                &gt; رمال شانغريلا البلاستيكية // PLASTIC_DUNES
+            </button>
+            <button onclick="executeTerminalScan('sea')" style="background: transparent; border: 1px solid #c09687; color: #c09687; padding: 12px 20px; font-weight: bold; cursor: pointer; border-radius: 8px; font-family: 'Cairo', sans-serif !important; font-weight: 1000; transition: all 0.2s ease;">
+                &gt; بحر كراكين المسال // LIQUID_MATRIX
+            </button>
+        </div>
+
+        <div id="terminalScreenViewport" style="background: #04040f; border: 1px solid #bb9734; border-right: 5px solid #bb9734; border-radius: 8px; padding: 25px; min-height: 150px; direction: rtl; text-align: justify; box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);">
+            <p style="color: #bb9734; font-size: 1.2rem; font-weight: bold; letter-spacing: 1px; direction: ltr; text-align: left; margin: 0; font-family: 'Courier New', monospace !important;">
+                AWAITING SECTOR INITIALIZATION COMMAND...
+            </p>
+            <p style="font-family: 'Cairo', sans-serif !important; margin-top: 15px; color: #a0aec0; font-size: 14px; font-weight: 1000;">
+                نظام التحكم جاهز. يرجى اختيار إحداثيات قطاع مسح الموارد لفك تشفير بيانات المهمة الحيوية وعرضها هنا.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="phys-container-wide" style="margin-bottom: 60px;">
+    
+    <div class="phys-header" style="margin-bottom: 35px;">
+        <h2 class="cairo-bold-title" style="direction: ltr; text-align: center; font-family: 'Impact', sans-serif !important; font-size: 2rem !important; color: #bb9734; margin-top: 10px;">
+            MISSION BLUEPRINT: OPERATIONAL ROADMAP & RESEARCH PHASES
+        </h2>
+        <h2 class="cairo-bold-title" style="font-size: 2rem !important; margin-bottom: 5px; color: #bb9734;">
+            مخطط البعثة: خارطة الطريق العملياتية ومراحل البحث القادمة
+        </h2>
+        
+        <div class="header-line"></div>
+    </div>
+
+    <div class="phys-dashboard-grid-3">
+
+        <div class="dashboard-card" style="border-top: 4px solid #bb9734; background: rgba(255,255,255,0.01);">
+            <span class="eng-impact-label">[PHASE 01 // ORBITAL SIMULATION]</span>
+            <h3 class="cairo-card-title" style="color: #ffffff; font-weight: 1000;"> المرحلة الأولى: محاكاة النطاق الكوكبي والميكانيكا</h3>
+            <p class="cairo-body-text" style="font-size: 13px; line-height: 1.6; color: #a0aec0;">
+                تركز هذه المرحلة على تدقيق الحسابات المدارية وتأثير قوى المد والجزر لزحل على اتزان القشرة الجليدية الخارجية. نقوم بمقارنة الغلاف الجوي الكثيف لتايتان ميكانيكياً لحساب قوى الرفع والديناميكا الهوائية اللازمة لتسهيل حركة الرواد والمعدات على السطح.
+            </p>
+        </div>
+
+        <div class="dashboard-card" style="border-top: 4px solid #8ec4bc; background: rgba(255,255,255,0.01);">
+            <span class="eng-impact-label">[PHASE 02 // BIO-SUPPORT SYSTEMS]</span>
+            <h3 class="cairo-card-title" style="color: #ffffff; font-weight: 1000;"> المرحلة الثانية: الهندسة الكيميائية ودعم الحياة</h3>
+            <p class="cairo-body-text" style="font-size: 13px; line-height: 1.6; color: #a0aec0;">
+                الانتقال هندسياً إلى تصميم وحدات الدعم الحيوي المغلقة للتعامل مع معضلة انعدام الأكسجين الحر. تشمل الخطط نمذجة محطات التحليل الكهربائي الحراري لصهر صخور الجليد المائي المتاحة بغزارة في قشرة القمر وتحويلها إلى مخزون تنفس خلوي مستدام.
+            </p>
+        </div>
+
+        <div class="dashboard-card" style="border-top: 4px solid #c09687; background: rgba(255,255,255,0.01);">
+            <span class="eng-impact-label">[PHASE 03 // TELEMETRY NETWORK]</span>
+            <h3 class="cairo-card-title" style="color: #ffffff; font-weight: 1000;"> المرحلة الثالثة: البنية التحتية للشبكات والاتصالات</h3>
+            <p class="cairo-body-text" style="font-size: 13px; line-height: 1.6; color: #a0aec0;">
+                تطوير بروتوكولات الاتصال اللاسلكي بعيد المدى وتجاوز عقبة التربيع العكسي للضوء وعتمة الشمس. تهدف النمذجة الحالية إلى ابتكار مصفوفات توجيه تلقائي ذاتية الإدارة على متن المستعمرة للتعامل مع فجوة تأخر الإشارات اللاسلكية البالغة 90 دقيقة.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="phys-container-wide" style="margin-bottom: 60px; padding: 0 15px;">
+    <div style="background: #090f16; border: 1px solid #8ec4bc; border-radius: 12px; padding: 35px;">
+        
+        <h2 class="cairo-sub-heading" style="font-family: 'Cairo', sans-serif !important; color: #8ec4bc; margin-top: 0; margin-bottom: 12px; font-weight: 1000; font-size: 1.6rem !important; text-align: right; direction: rtl;">
+             الاستنتاج الكوكبي: موازنة البقاء على تايتان
+        </h2>
+        
+        <span class="eng-impact-label" style="color: #bb9734; font-family: 'Impact', sans-serif !important; font-size: 0.9rem; letter-spacing: 1px; display: block; margin-bottom: 15px; text-align: left; direction: ltr;">
+            [SCIENCE OF EARTH AND SPACE SUMMARY // CRITICAL CONCLUSION]
+        </span>
+        
+        <p class="cairo-body-text" style="direction: rtl; text-align: justify; font-size: 15px; line-height: 1.8; color: aliceblue; font-weight: normal; margin: 0;">
+            في الختام، تُثبت معطيات علوم الأرض والفضاء أن استعمار تايتان ليس مجرد خيال علمي، بل هو معادلة فيزيائية معقدة تتوازن فيها المقومات الفريدة مع التحديات القاسية. فرغم أن الغلاف الجوي الكثيف يوفر درعاً مثالياً ضد الإشعاعات الفضائية المميتة، إلا أن معضلة انعدام الأكسجين وعتمة قانون التربيع العكسي تفرض على المهندسين ابتكار حلول ثورية خارجة عن المألوف. إن فهمنا لهذه الخصائص الجيومورفولوجية والميكانيكية هو الخطوة الأولى والأساسية لبناء بيئة بشرية مستدامة وآمنة قبل الانتقال إلى تصميم الأنظمة الكيميائية وشبكات الاتصالات الرقمية في هذا العالم المتجمد.
+        </p>
+        
+    </div>
+</div>
+
+
+<script>
+function executeTerminalScan(sectorKey) {
+    const viewport = document.getElementById('terminalScreenViewport');
+    let consoleHeader = "";
+    let dataParagraph = "";
+    let alertGlow = "#bb9734";
+
+    if (sectorKey === 'stratosphere') {
+        consoleHeader = "SEC_SCAN // STRATOSPHERE_DATA // RETRIEVAL_SUCCESS";
+        dataParagraph = "تفاعل تفكك الغازات الضوئي نشط حالياً؛ حيث تعمل الإشعاعات الشمسية عالية الطاقة على تكسير جزيئات الميثان (CH₄). إنتاج الضباب العضوي في طبقات الجو العليا يمر بذروة كتلته الكلية، وتصل نسبة امتصاص التدفق الشمسي إلى 90%، مما يدعم نظام الاحتباس الحراري العكسي الكوكبي ويحجب الضوء المرئي عن السطح تماماً.";
+        alertGlow = "#bb9734";
+    } else if (sectorKey === 'dunes') {
+        consoleHeader = "SEC_SCAN // EQUATORIAL_DUNES_TELEMETRY // CRITICAL_WARN";
+        dataParagraph = "سرعة الرياح السطحية مستقرة عند 2 متر في الثانية. حبيبات رمال الثولين البلاستيكية الدقيقة تظهر مستويات حرجة من الشحنات الكهربائية الساكنة الناتجة عن الاحتكاك. تحذير ميكانيكي: الجزيئات العضوية البوليميرية ستلتصق بقوة مغناطيسية ساكنة بفتحات البدلات الحرارية، وععدسات الكاميرات، ومنافذ التبريد الهوائي.";
+        alertGlow = "#8ec4bc";
+    } else if (sectorKey === 'sea') {
+        consoleHeader = "SEC_SCAN // LIQUID_MATRIX_KRAKEN_MARE // DETECT_OK";
+        dataParagraph = "الفحص المائي العميق نشط؛ العمق الإجمالي المقاس يسجل 160 متراً. التركيب الكيميائي للسائل مؤكد بنسبة 70% ميثان سائل و30% إيثان سائل. درجة الحرارة المحيطة مستقرة تماماً عند -181 درجة مئوية، وأجهزة الرادار ترصد كتل جليد مائي صلب عذب تطفو كجبال جليدية عائمة على طول الشاطئ.";
+        alertGlow = "#c09687";
+    }
+
+    viewport.style.border = `1px solid ${alertGlow}`;
+    viewport.style.borderRight = `5px solid ${alertGlow}`;
+    viewport.style.boxShadow = `inset 0 0 20px ${alertGlow}1a`;
+    
+    viewport.innerHTML = `
+        <p style="color: ${alertGlow}; font-size: 1.2rem; font-weight: bold; letter-spacing: 1px; direction: ltr; text-align: left; margin: 0; font-family: 'Courier New', monospace !important;">
+            > ${consoleHeader}
+        </p>
+        <p style="font-family: 'Cairo', sans-serif !important; margin-top: 15px; color: #ffffff; font-size: 15px; line-height: 1.7; font-weight: 1000;">
+            ${dataParagraph}
+        </p>
+    `;
+}
+</script>
+
+<script>
+const bgAudio = document.getElementById('titan-bg-audio');
+const toggleBtn = document.getElementById('audio-toggle');
+const toggleText = document.getElementById('toggle-text');
+const speakerIcon = document.getElementById('speaker-icon');
+
+toggleBtn.addEventListener('click', () => {
+  if (bgAudio.paused) {
+    bgAudio.play().then(() => {
+      toggleText.innerText = 'Pause Audio Track';
+      speakerIcon.innerText = '⏸';
+      toggleBtn.style.background = '#bb9734'; 
+    }).catch(error => {
+      console.error("Playback blocked by system permissions:", error);
+    });
+  } else {
+    bgAudio.pause();
+    toggleText.innerText = 'Listen to Surface Winds';
+    speakerIcon.innerText = '▶';
+    toggleBtn.style.background = '#bb9734'; 
+  }
+});
+</script>
+
+</body>
+
+<footer id="about">
+
+  <section class="about-section">
+  <div class="about-content">
+    <h2>About Our Mission</h2>
+    <p class="about-desc">
+      We are a collaborative team of senior STEM students representing the 12th-grade 
+      cohort at the 23rd Governmental High School. This platform serves as the comprehensive 
+      digital repository for our capstone research project, which critically evaluates the scientific,
+      logistical, and technological feasibility of establishing a permanent human civilization on
+      Saturn’s largest moon, Titan. Recognizing that deep-space exploration demands a multi-faceted 
+      approach, our team adopted a rigorous, cross-disciplinary methodology. By synthesizing core principles
+      across advanced physics, organic chemistry, computational mathematics, and digital network infrastructure, 
+      we have deconstructed the environmental realities of this hostile alien world. From analyzing the fluid dynamics 
+      of cryogenic methane lakes to engineering theoretical life-support frameworks capable of enduring extreme 
+      atmospheric pressures and sub-zero thermal extremes, this project represents our collective academic effort 
+      to answer one of humanity's most profound questions: can we transform the frozen frontiers of the outer 
+      solar system into our next sustainable home?
+    </p>
+    
+    <div class="team-container">
+      <h3 style="color: #c09687;">The Research Crew</h3>
+      <ul class="team-list">
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue; font-weight: 550;">Sarah Al- Mosah, Aseel Omar, Lilian, Hind</strong> — Planetary Strategists & Systems Analysts </li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Hala Husein, Sarah Al- Mosah</strong> — Chemical Systems Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Jana Abbadi, Elaf Al- Esa, Jana Aldoory, Mays Rahmoon</strong> — Atmospheric Physics Researchers, Mathamatical Modelers</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Hala Husein, Zaina Azam, Aminah, Dana Al-Dosery</strong> — Data Analysts</li>
+        <li style="color: #8ec4bc;"><strong style="color:aliceblue;font-weight: 550;">Jana Abbadi</strong> — Lead Web Developer & Designer</li>
+      </ul>
+    </div>
+
+    <div class="feedback-container">
+       <h3 style="color: #91839b;">Mission Evaluation & Feedback</h3>
+      <p>We value your insights. Please visit our interactive noticeboard to leave your feedback, critiques, or analytical opinions on our Titan colonization framework.</p>
+      <a href="https://padlet.com/sarahmoussa1562002/padlet-s023qbl52hkr0v5h3w81" target="_blank" style="text-decoration: underline;">Access Our Padlet</a>
+     </div>
+
+
+  </div>
+</section>
+
+</footer>
+
+</html>
